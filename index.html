@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="toolbar">
+    <button id="newSnippet" title="New Snippet">➕ New</button>
+    <button id="toggleTheme" title="Toggle Theme">🌓</button>
+  </div>
+  <div id="snippetList"></div>
+  <div id="snippetEditor" class="hidden">
+    <input type="text" id="snippetTitle" placeholder="Snippet Title">
+    <input type="text" id="snippetTags" placeholder="Tags (comma-separated)">
+    <select id="frameworkSelector">
+      <option value="javascript">JavaScript</option>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="python">Python</option>
+      <option value="react">React</option>
+    </select>
+    <textarea id="snippetCode" placeholder="Paste your code here"></textarea>
+    <div class="editor-buttons">
+      <button id="saveSnippet">Save</button>
+      <button id="cancelEdit">Cancel</button>
+    </div>
+  </div>
+</div>
